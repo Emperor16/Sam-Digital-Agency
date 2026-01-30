@@ -1,133 +1,138 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Samuel Williams Consulting</title>
-    <link rel="stylesheet" href="styles.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-    />
-  </head>
-  <body>
-    <div class="main-container">
-      <nav class="navbar">
-        <div class="container nav-content">
-          <div class="logo">
-            <img src="/assets/SWC- LOGO.png" alt="" />
-            <h4>Samuel Williams Consulting</h4>
-          </div>
-          <ul class="nav-links">
-            <li><a href="#" class="active">Home</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Samuel Williams Consulting</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <link rel="shortcut icon" href="/assets/favicon.png" type="image/x-icon">
+</head>
+<body>
+  <div class="main-container">
+
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="container nav-content">
+        <div class="logo">
+          <img src="/assets/favicon.png" alt="Samuel Williams Consulting Logo" />
+          <h4>Samuel Williams Consulting</h4>
         </div>
-      </nav>
+        <ul class="nav-links">
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <!-- Hamburger menu injected by JS -->
+      </div>
+    </nav>
 
-      <header class="hero">
-        <div class="container hero-grid">
-          <div class="hero-text">
-            <h1>Helping brands grow with strategy, creativity, and clarity.</h1>
-            <p>
-              Marketing strategist helping businesses build visibility, trust,
-              and sustainable growth in the digital space.
-            </p>
-            <a href="#" class="btn btn-gold">Book a Free Consultation</a>
-          </div>
-          <img  class= "mc" src="/assets/sammyImg.png" alt="" />
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <h1>Helping brands grow with strategy, creativity, and clarity.</h1>
+          <p>
+            Marketing strategist helping businesses build visibility, trust,
+            and sustainable growth in the digital space.
+          </p>
+          <a href="mailto:samuelwilliamsconsulting@gmail.com?subject=Hello%20there&body=This%20is" class="btn btn-gold">Book a Free Consultation</a>
         </div>
-      </header>
+        <img class="mc" src="/assets/sammyImg.png" alt="Consulting Hero Image" />
+      </div>
+    </header>
 
-      <section class="features section-padding">
-        <div class="container">
-          <h2 class="section-title">Why Work With Us?</h2>
-          <div class="feature-grid">
-            <div class="card">
-              <i class="fas fa-chess-knight icon"></i>
-              <h3>Strategic Thinking</h3>
-              <p>Analytical insights to guide your growth.</p>
-            </div>
-            <div class="card">
-              <i class="fas fa-lightbulb icon"></i>
-              <h3>Creative Execution</h3>
-              <p>Innovative ideas that make an impact.</p>
-            </div>
-            <div class="card">
-              <i class="fas fa-chart-bar icon"></i>
-              <h3>Data-Driven Decisions</h3>
-              <p>Innovative ideas strategies based on real data.</p>
-            </div>
+    <!-- Features -->
+    <section id="about" class="features section-padding">
+      <div class="container">
+        <h2 class="section-title">Why Work With Us?</h2>
+        <div class="feature-grid">
+          <div class="card">
+            <i class="fas fa-chess-knight icon"></i>
+            <h3>Brand Positioning</h3>
+            <p>Brand clarity & differentiation</p>
+            <p>Messaging frameworks.</p>
+            <p>Market alignment.</p>
           </div>
-        </div>
-      </section>
-
-      <section class="services section-padding light-bg">
-        <div class="container">
-          <h2 class="section-title">Services</h2>
-          <div class="service-list">
-            <div class="service-item accent-teal">
-              <h4>Brand Positioning & Messaging</h4>
-              <p>Crafting a distinct voice for your business.</p>
-            </div>
-            <div class="service-item accent-blue">
-              <h4>Social Media Strategy</h4>
-              <p>Growing your presence across social platforms.</p>
-            </div>
-            <div class="service-item accent-dark-blue">
-              <h4>Content & Growth Consulting</h4>
-              <p>Empowering businesses to scale effectively.</p>
-            </div>
+          <div class="card">
+            <i class="fas fa-lightbulb icon"></i>
+            <h3>Social Media Growth & Visibility Strategy</h3>
+            <p>Platform strategy & positioning.</p>
+            <p>Ad Creation & management</p>
           </div>
-
-          <div class="expertise">
-            <p class="expertise-title"><span>Trusted Expertise</span></p>
-            <div class="check-list">
-              <span
-                ><i class="fas fa-check"></i> Certified Digital Marketing
-                Professional</span
-              >
-              <span
-                ><i class="fas fa-check"></i> Proven Strategies &
-                Frameworks</span
-              >
-              <span
-                ><i class="fas fa-check"></i> Helping brands thrive in
-                market</span
-              >
-            </div>
+          <div class="card">
+            <i class="fas fa-chart-bar icon"></i>
+            <h3>Content & Growth Consulting</h3>
+            <p>Content systems & storytelling</p>
+            <p>Content creation & management</p>
+            <p>Growth planning & optimization</p>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section class="cta section-padding">
-        <div class="container text-center">
-          <h2>Ready to grow your brand the smart way?</h2>
-          <a href="#" class="btn btn-gold-outline">Let's Talk</a>
-        </div>
-      </section>
-
-      <footer class="footer">
-        <div class="container footer-content">
-          <div class="footer-logo">
-            <i class="fas fa-layer-group"></i> Samuel Williams Consulting
+    <!-- Services -->
+    <section id="services" class="services section-padding light-bg">
+      <div class="container">
+        <h2 class="section-title">Services</h2>
+        <div class="service-list">
+          <div class="service-item accent-teal">
+            <h4>Brand Positioning & Messaging</h4>
+            <p>Crafting a distinct voice for your business.</p>
           </div>
-          <div class="footer-info">
-            <span>Strategic Marketing Solutions</span>
-            <span class="divider">|</span>
-            <span>info@example.co</span>
+          <div class="service-item accent-blue">
+            <h4>Social Media Strategy</h4>
+            <p>Growing your presence across social platforms.</p>
           </div>
-          <div class="social-links">
-            <img src="/assets/ic--outline-facebook.svg" alt="">
-            <img src="/assets/codicon--twitter.svg" alt="" srcset="">
-            <img src="/assets/mdi--linkedin.svg" alt="">
+          <div class="service-item accent-dark-blue">
+            <h4>Content & Growth Consulting</h4>
+            <p>Empowering businesses to scale effectively.</p>
           </div>
         </div>
-      </footer>
-    </div>
 
-    <script src="index.js"></script>
-  </body>
+        <div class="expertise">
+          <p class="expertise-title"><span>Trusted Expertise</span></p>
+          <div class="check-list">
+            <span><i class="fas fa-check"></i> Certified Digital Marketing Professional</span>
+            <span><i class="fas fa-check"></i> Proven Strategies & Frameworks</span>
+            <span><i class="fas fa-check"></i> Helping brands thrive in competitive markets</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta section-padding">
+      <div class="container text-center">
+        <h2>Ready to grow your brand the smart way?</h2>
+        <a href="mailto:samuelwilliamsconsulting@gmail.com?subject=Hello%20there&body=This%20is" class="btn btn-gold-outline">Let's Talk</a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+      <div class="container footer-content">
+        <div class="footer-logo">
+          <i class="fas fa-layer-group"></i> Samuel Williams Consulting
+        </div>
+        <div class="footer-info">
+          <span>Strategic Marketing Solutions</span>
+          <span class="divider">|</span>
+          <span><i class="fas fa-dollar"></i> Digital Agency</span>
+        </div>
+        <div class="social-links">
+          <a href="https://www.facebook.com/profile.php?id=61584696324920" target="_blank" rel="noopener noreferrer"><img class="red" src="/assets/ic--outline-facebook.svg" alt="Facebook"></a>
+          <a href="https://x.com/iamsam_williams" target="_blank" rel="noopener noreferrer"><img class="red" src="/assets/codicon--twitter.svg" alt="Twitter"></a>
+          <a href="https://www.linkedin.com/in/samuel-williams-consulting" target="_blank" rel="noopener noreferrer"><img class="red" src="/assets/mdi--linkedin.svg" alt="LinkedIn"></a>
+        </div>
+      </div>
+          <Span id="end" > <i class="fas fa-copyright"></i>Samuel Williams</Span>
+    </footer>
+
+
+  </div>
+
+  <script src="index.js"></script>
+</body>
 </html>
